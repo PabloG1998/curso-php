@@ -1,0 +1,1 @@
+Today is <?php  echo date("l");?>
