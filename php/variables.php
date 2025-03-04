@@ -32,4 +32,25 @@
 if($y == 10) {
     echo $y;  
 }
+echo "<hr><br>";
+echo "<h1>Concatenacion de Variables: </h1>";
+echo "<hr>";
+$info = '<h1>Esto preserva la cadena literal, escrito entre apostrofes </h1>';
+echo "<h1>Esto es una variable concatenada: </h1>" . "<br>";
+echo "<h1>Variable: " . "Esta semana " . $count . " vieron su perfil</h1>";
+$msgs = 5;
+//$bulletin .= $newsflash;
+echo "<h1>You have " . $msgs . " messages</h1>"; 
+echo "<hr>";
+echo "<h1> Caracteres de escape: " . "</h1>";
+echo "<hr>";
+$text = //'My spelling's atroushus' //Sintaxis erronea
+$text = '<h1> My spellin\'s still atroshus </h1>';
+$text = "<h1>She wrote upon it, \"Return to sender\" . </h1>";
+$heading = "<h1> Date\tName\tPayment </h1>";
+echo $heading;
+echo "<hr>";
+echo $text;
+$number = 12345 * 67890;
+echo substr($number, 3,1);
 ?>
